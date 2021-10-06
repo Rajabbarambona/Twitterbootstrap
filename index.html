@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The link above is for putting the same width for all devices:gsm tablets and desktops -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Twitter_Bootstrap_Exercices</title>
+</head>
+
+<body>
+    <h1>Blocs Positioning</h1>
+    <div class="container  mycontainer justify-content-center">
+        <p>12 colonnes</p>
+        <div class="row  justify-content-between mt-5">
+            <div class="col-2 block align-self-end offset-md-1">
+                <p>Coucou</p>
+            </div>
+            <div class="col-3 block align-self-end">
+                <p>ça</p>
+            </div>
+            <div class="col-2 block align-self-end ">
+                <p>va?</p>
+            </div>
+
+        </div>
+    </div>
+    <h1>Imbricated Elements</h1>
+    <div class="container justify-content-center mycontainer">
+        <div class="row block">
+            <div class="col-4 block">
+                <p>Nouvel</p>
+            </div>
+            <div class="col-8 block ">
+                <div class="row">
+                    <p>Exercise</p>
+                </div>
+                <div class="row justify-content-center align-items-stretch">
+                    <div class="col-3 block">
+                        <p>ces</p>
+                    </div>
+                    <div class="col-6 block">
+                        <p>block sont tous</p>
+                    </div>
+                    <div class="col-3 block">
+                        <p>dans</p>
+                    </div>
+                </div>
+                <div class="row  justify-content-center align-items-stretch">
+                    <div class="col-4 block">
+                        <p>la même </p>
+                    </div>
+                    <div class="col-4 block">
+                        <p>div où est</p>
+                    </div>
+                    <div class="col-4 block">inscrit "Exercise"</div>
+                </div>
+                <div class="row  justify-content-center align-items-stretch">
+                    <div class="col-5 block">
+                        <p>comment</p>
+                    </div>
+                    <div class="col-2 block">est</div>
+                    <div class="col-5 block">ce possible ?</div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <h1>Change Elements Order</h1>
+    <div class="container  mycontainer justify-content-center">
+        <p>12 colonnes</p>
+        <div class="row  justify-content-around ">
+            <div class="col-2 block align-self-end order-first">
+                <p>Bloc 1 de 2</p>
+            </div>
+            <div class="col-2 block align-self-end order-last">
+                <p>Bloc 2 de 2</p>
+            </div>
+            <div class="col-2 block align-self-end ">
+                <p>Bloc 3 de 2</p>
+            </div>
+
+        </div>
+    </div>
+    <h1>Pratice Makes Good</h1>
+    <div class="container  mycontainer ">
+        <div class="row">
+            <div class="col-6 block">
+                <p>6 colonnes</p>
+                <div class="row  justify-content-between ">
+                    <div class="col-4 align-self-end block">
+                        <p>4 colonnes</p>
+                    </div>
+                    <div class="col-4 align-self-end block">
+                        <p>4 colonnes</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 block">
+                <p>6 colonnes</p>
+                <div class="row  justify-content-between ">
+                    <div class="col-4 align-self-end block">
+                        <p>4 colonnes</p>
+                    </div>
+                    <div class="col-8 align-self-end block">
+                        <p>8 colonnes</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>

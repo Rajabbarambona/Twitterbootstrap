@@ -1,0 +1,20 @@
+.mycontainer {
+    background-color: rgb(218, 143, 218);
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.block {
+    background-color: rgb(226, 114, 226);
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+div h3,
+p {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
